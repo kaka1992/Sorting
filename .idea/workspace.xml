@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="548fa21c-7cf5-4020-b4c0-b0468743bab4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sort.java" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\META-INF\MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\application_side_contract.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\application_side_expand.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\arrow_nsew.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\arrow_refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\book_open_mark.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\bullet_black.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\bullet_blue.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\bullet_delete.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\bullet_go.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\bullet_green.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\bullet_left.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\bullet_orange.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\bullet_pink.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\bullet_purple.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\bullet_red.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\bullet_right.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\bullet_star.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\bullet_white.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\bullet_yellow.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\cog.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\cog_add.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\cog_delete.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\cog_edit.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\cog_error.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\cog_go.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\cog_start.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\cog_stop.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\database.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\database_gear.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\database_go.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\delete.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\disk.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\folder.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\folder_add.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\monjadb.conf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\page_back.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\page_copy.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\page_edit.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\page_forward.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\page_white_paste_table.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\page_white_stack.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\pencil.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\server.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\server_delete.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\server_lightning.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\shape_square.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\stop_blue.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\stop_green.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\table.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\table_add.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\table_delete.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\table_edit.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\table_go.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\table_multiple.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\table_refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\app\MMonjaDB\eclipse\resources\text_list_bullets.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\mongo\parseFindQuery.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\net\MHttpData.java.swp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\bin\net\jumperz\util\MThreadPool.java.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\build.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\lib\jsch-0.1.46.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\lib\mongo-2.7.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MApplication.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MBitDog\MAbstractLogger.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MBitDog\MBitDog.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MBitDog\MLineLogger.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MBitDog\MLoggerFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MBitDog\MNullLogger.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MBitDog\MShutdownHook.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MBitDog\MSizeLogger.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\MAbstractLogAgent.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\MConstants.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\MCoreUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\MDataManager.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\MInputView.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\MMonjaDB.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\MOutputView.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\MStdinView.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\MStdoutView.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\action\MAbstractAction.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\action\MAction.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\action\MActionManager.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\action\MConnectAction.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\action\MContextException.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\action\MFindAction.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\action\MInsertAction.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\action\MParseException.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\action\MRemoveAction.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\action\MSaveAction.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\action\MShowCollectionAction.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\action\MShowDBAction.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\action\MUpdateAction.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\action\MUseAction.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\action\mj\MActivateDocumentEditorAction.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\action\mj\MCopyAction.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\action\mj\MDisconnectAction.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\action\mj\MEditAction.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\action\mj\MEditFieldAction.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\action\mj\MMjRemoveAction.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\action\mj\MNextItemsAction.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\action\mj\MPasteAction.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\action\mj\MPrevItemsAction.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\action\mj\MShowAllCollectionStatsAction.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\action\mj\MShowAllDbStatsAction.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\action\mj\MSortAction.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\action\mj\MUpdateIntFieldAction.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\event\MEvent.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\event\MEventManager.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\exception\MConnectedToWrongHostException.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\test\MDebug.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDBCore\test\MTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\Activator.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\MAuthCommand.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\MAuthManager.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\MMenuManager.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\MPerspectiveFactory1.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\MUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\action\MSshConnectAction.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\dialog\MActionDialog.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\dialog\MConnectDialog.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\dialog\MInsertJsonDialog.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\dialog\MPasswordDialog.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\dialog\MPromptDialog.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\handler\MActivationHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\pref\MPrefManager.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\pref\MPrefPage.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\pref\PreferenceInitializer.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\application_side_contract.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\application_side_expand.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\arrow_nsew.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\arrow_refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\book_open_mark.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\bullet_black.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\bullet_blue.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\bullet_delete.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\bullet_go.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\bullet_green.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\bullet_left.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\bullet_orange.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\bullet_pink.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\bullet_purple.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\bullet_red.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\bullet_right.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\bullet_star.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\bullet_white.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\bullet_yellow.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\cog.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\cog_add.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\cog_delete.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\cog_edit.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\cog_error.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\cog_go.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\cog_start.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\cog_stop.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\database.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\database_gear.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\database_go.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\delete.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\disk.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\folder.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\folder_add.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\monjadb.conf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\page_back.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\page_copy.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\page_edit.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\page_forward.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\page_white_paste_table.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\page_white_stack.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\pencil.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\server.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\server_delete.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\server_lightning.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\shape_square.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\stop_blue.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\stop_green.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\table.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\table_add.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\table_delete.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\table_edit.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\table_go.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\table_multiple.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\table_refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\resources\text_list_bullets.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\view\MAbstractView.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\view\MActionView.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\view\MCollectionList.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\view\MDBList.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\view\MDBTree.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\view\MDocumentEditor.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\view\MDocumentList.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\view\MJavaScriptView.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\view\MJsonView.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\app\MMonjaDB\eclipse\view\MSavedActionsView.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\gui\MFrame.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\gui\MFrameWindowAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\gui\MSWTApplication.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\gui\MSWTSyncUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\gui\MSplitPaneFrame.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\gui\MSwtUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\io\MAdvancedLineReader.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\io\MBlackholeOutputStream.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\io\MBuffer.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\io\MCRLFLineReader.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\io\MLineReader.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\io\MNullOutputStream.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\io\MSimpleLineReader.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\mongo\MFindQuery.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\mongo\MLock.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\mongo\MMongoManager.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\mongo\MMongoUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\mongo\parseFindQuery.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\net\MAbstractParameter.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\net\MConnector.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\net\MFDCloser.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\net\MHttpData.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\net\MHttpData.java.swp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\net\MHttpRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\net\MHttpResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\net\MMail.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\net\MMultiAcceptor.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\net\MMultipartParameter.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\net\MParameter.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\net\MParameterFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\net\MPeer.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\net\MRequestUri.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\net\MResolver.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\net\MResolverLookupCommand.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\net\MResponseReceiver.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\net\MSimpleResolver.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\net\MSingleAcceptor.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\net\MSocketCloser.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\net\MSslConnector.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\net\MSslConnectorViaProxy.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\net\MStreamConnectorObserver.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\net\MTProxy.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\net\MUnicodeUrlDecoder.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\net\aws\MAwsUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\net\cloudfiles\MCloudFilesContext.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\net\cloudfiles\MCloudFilesException.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\net\cloudfiles\MCloudFilesUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\net\cloudfiles\MConstants.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\net\dozens\MSession.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\net\exception\MHttpException.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\net\exception\MHttpIOException.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\net\exception\MHttpStreamClosedException.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\net\exception\MIllegalEncodingException1.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\net\exception\MIllegalEncodingException2.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\net\jaxer\MJaxerBench.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\net\jaxer\MJaxerFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\net\jaxer\MJaxerPing.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\net\jaxer\MJaxerServer.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\security\MBCUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\security\MBlowfishCBCCipher.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\security\MBlowfishCBCCryptInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\security\MBlowfishCipher.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\security\MBlowfishECBCryptInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\security\MBogusX509TrustManager.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\security\MCryptInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\security\MHashDoSDetector.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\security\MHashDoSUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\security\MRC4Cipher.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\security\MRC4CryptInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\security\MSecurityUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\security\MTokenGenerator.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\sql\MConnServer.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\sql\MSqlUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\Base64.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MAsyncCommandManager.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MByteReceiver.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MCharset.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MCloneable.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MCommand.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MCommand2.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MCommand2Impl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MCommandExecuter.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MCompilationException.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MCompiler.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MCount.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MDebugLogger.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MFileLogger.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MFileWatcher.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MHistory.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MJSList.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MJSMap.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MJSObject.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MJSUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MListComparator.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MLockByNameManager.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MLogServer.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MLogger.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MLongCounter.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MLongCounterMap.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MNullLogger.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MObjectArray.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MObjectPool.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MObserver1.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MObserver2.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MPair.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MPairValueComparator.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MProperties.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MRegEx.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MRrdUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MScriptParser.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MSender.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MSingleThreadCommand.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MStandardLogger.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MStreamConnector.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MStreamUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MStringMap.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MStringReceiver.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MStringUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MSubject1.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MSubject1Impl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MSubject2.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MSubject2Impl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MSwingUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MSyncObserver.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MSystemUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MTProxyPortInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MThreadPool.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MThreadPool.java.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MTimer.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\MWorkerThread.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\shutdown\MAbstractShutdown.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\shutdown\MShutdownClient.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\shutdown\MShutdownServer.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\net\jumperz\util\shutdown\MShutdownerObserver.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\lily\workspace\google-test\src\src\org\eclipse\wb\swt\SWTResourceManager.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/.classpath" afterPath="$PROJECT_DIR$/src/.classpath" />
+    </list>
+    <ignored path="google-test.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/Dummy.txt" changelist="548fa21c-7cf5-4020-b4c0-b0468743bab4" time="1403101613386" ignored="false" />
+    <file path="/Sort.java" changelist="548fa21c-7cf5-4020-b4c0-b0468743bab4" time="1403100525617" ignored="false" />
+    <file path="/RBTree.java" changelist="548fa21c-7cf5-4020-b4c0-b0468743bab4" time="1403081145329" ignored="false" />
+    <file path="/fragment.java" changelist="548fa21c-7cf5-4020-b4c0-b0468743bab4" time="1403100591458" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/Sort.java" line="68" class="Sort" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/Sort.java" line="40" class="Sort" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="google-test" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Sort.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Sort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="29" selection-start="955" selection-end="955" vertical-scroll-proportion="0.4010554">
+              <folding>
+                <element signature="e#1832#1841#0" expanded="true" />
+                <element signature="e#4980#4995#0" expanded="true" />
+                <element signature="e#5055#5064#0" expanded="true" />
+                <element signature="e#5126#5135#0" expanded="true" />
+                <element signature="e#7386#7399#0" expanded="true" />
+                <element signature="e#7596#7607#0" expanded="true" />
+                <element signature="e#7812#8082#0" expanded="true" />
+                <element signature="e#8071#8072#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/sort.java" />
+        <option value="$PROJECT_DIR$/src/RBTree.java" />
+        <option value="$PROJECT_DIR$/src/Sort.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="54" />
+    <option name="y" value="-8" />
+    <option name="width" value="1320" />
+    <option name="height" value="784" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="2" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="google-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.searchVisible" value="true" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.Sort">
+    <configuration default="false" name="Sort" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Sort" />
+      <option name="VM_PARAMETERS" value="-Xmx1400M -Xms1400M -Xmn600M" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="google-test" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.Sort" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Sort" />
+      </list>
+    </recent_temporary>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="548fa21c-7cf5-4020-b4c0-b0468743bab4" name="Default" comment="" />
+      <created>1403076090834</created>
+      <updated>1403076090834</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.49046105" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32744783" sideWeight="0.5166932" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32744783" sideWeight="0.47774243" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24960254" sideWeight="0.67255217" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.49682036" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39967898" sideWeight="0.47774243" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/MyInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RBTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="22" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/JAVA/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="153" column="59" selection-start="6762" selection-end="6762" vertical-scroll-proportion="0.3852459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="29" selection-start="955" selection-end="955" vertical-scroll-proportion="0.4010554">
+          <folding>
+            <element signature="e#1832#1841#0" expanded="true" />
+            <element signature="e#4980#4995#0" expanded="true" />
+            <element signature="e#5055#5064#0" expanded="true" />
+            <element signature="e#5126#5135#0" expanded="true" />
+            <element signature="e#7386#7399#0" expanded="true" />
+            <element signature="e#7596#7607#0" expanded="true" />
+            <element signature="e#7812#8082#0" expanded="true" />
+            <element signature="e#8071#8072#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>google-test</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+
