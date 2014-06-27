@@ -4,16 +4,16 @@ public class Sort {
     public static void main(String[] args) {
         Random r = new Random(System.currentTimeMillis());
         int[] a = new int[10000000];
-        for(int i = 0; i < 10000000; i++)
+        for (int i = 0; i < 10000000; i++)
             a[i] = r.nextInt();
         long c1 = System.currentTimeMillis();
         sorting_fast_no(a);
         long c2 = System.currentTimeMillis();
-        System.out.println(c2-c1);
+        System.out.println(c2 - c1);
         c1 = System.currentTimeMillis();
         pthreeSort(a);
         c2 = System.currentTimeMillis();
-        System.out.println(c2-c1);
+        System.out.println(c2 - c1);
     }
 
     private static void sorting(int[] list) {
@@ -213,6 +213,7 @@ public class Sort {
         class RunSizeRefs {
             public int runIndex;
             public int runSize;
+
             public RunSizeRefs(int runIndex, int runSize) {
                 this.runIndex = runIndex;
                 this.runSize = runSize;
@@ -222,6 +223,7 @@ public class Sort {
             public int elemArr;
             public int elemIndex;
             public int runSize;
+
             public ElemsRuns(int elemArr, int elemIndex, int runSize) {
                 this.elemArr = elemArr;
                 this.elemIndex = elemIndex;
@@ -251,8 +253,8 @@ public class Sort {
         for (int i = 0; i < runSizeRefs.size(); i++) {
             RunSizeRefs temp = runSizeRefs.get(i);
             List<Integer> runTemp = runs.get(temp.runIndex);
-            for(int j = 0; j < temp.runSize; j++){
-                elem[0][j+nextEmptyArrayLoc] = runTemp.get(j);
+            for (int j = 0; j < temp.runSize; j++) {
+                elem[0][j + nextEmptyArrayLoc] = runTemp.get(j);
             }
             elemsRuns.add(new ElemsRuns(0, nextEmptyArrayLoc, temp.runSize));
             nextEmptyArrayLoc += temp.runSize;
@@ -261,54 +263,54 @@ public class Sort {
         ElemsRuns curRun = null;
         ElemsRuns nextRun = null;
         curRun = curRunIt.next();
-        while(elemsRuns.size() > 1){
-            if(curRunIt.hasNext()){
+        while (elemsRuns.size() > 1) {
+            if (curRunIt.hasNext()) {
                 nextRun = curRunIt.next();
-                if(curRun.runSize+nextRun.runSize > (elemsRuns.get(0).runSize + (elemsRuns.get(1)).runSize)){
+                if (curRun.runSize + nextRun.runSize > (elemsRuns.get(0).runSize + (elemsRuns.get(1)).runSize)) {
                     curRunIt = elemsRuns.listIterator();
                     curRun = curRunIt.next();
                     nextRun = curRunIt.next();
                 }
-            } else{
+            } else {
                 curRunIt = elemsRuns.listIterator();
                 curRun = curRunIt.next();
                 nextRun = curRunIt.next();
             }
-            if(curRun.elemArr == 0){
+            if (curRun.elemArr == 0) {
                 pthreeMerge(elem, curRun.elemIndex, curRun.runSize + curRun.elemIndex, curRun.elemArr, nextRun.elemIndex, nextRun.runSize + nextRun.elemIndex, nextRun.elemArr, curRun.elemIndex, curRun.elemArr + 1);
                 curRun.elemArr = 1;
-            }else{
+            } else {
                 pthreeMerge(elem, curRun.elemIndex, curRun.runSize + curRun.elemIndex, curRun.elemArr, nextRun.elemIndex, nextRun.runSize + nextRun.elemIndex, nextRun.elemArr, curRun.elemIndex, curRun.elemArr - 1);
                 curRun.elemArr = 0;
             }
             curRun.runSize += nextRun.runSize;
             curRunIt.remove();
-            if(curRunIt.hasNext())
+            if (curRunIt.hasNext())
                 curRun = curRunIt.next();
         }
-        if(curRun.elemArr == 0)
+        if (curRun.elemArr == 0)
             return elem1;
         else
             return elem2;
     }
 
-    private static void pthreeMerge(int[][] elem,int run1Index, int run1End, int run1Arr, int run2Index, int run2End, int run2Arr, int targetIndex, int targetArr){
-        while(run1Index < run1End && run2Index < run2End){
-            if(elem[run1Arr][run1Index] < elem[run2Arr][run2Index]){
+    private static void pthreeMerge(int[][] elem, int run1Index, int run1End, int run1Arr, int run2Index, int run2End, int run2Arr, int targetIndex, int targetArr) {
+        while (run1Index < run1End && run2Index < run2End) {
+            if (elem[run1Arr][run1Index] < elem[run2Arr][run2Index]) {
                 elem[targetArr][targetIndex] = elem[run1Arr][run1Index];
                 run1Index++;
-            }else{
+            } else {
                 elem[targetArr][targetIndex] = elem[run2Arr][run2Index];
                 run2Index++;
             }
             targetIndex++;
         }
-        while(run1Index < run1End){
+        while (run1Index < run1End) {
             elem[targetArr][targetIndex] = elem[run1Arr][run1Index];
             targetIndex++;
             run1Index++;
         }
-        while(run2Index < run2End){
+        while (run2Index < run2End) {
             elem[targetArr][targetIndex] = elem[run2Arr][run2Index];
             targetIndex++;
             run2Index++;
