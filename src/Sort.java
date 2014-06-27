@@ -34,6 +34,7 @@ public class Sort {
             int middle = getMiddle(list, low, high);
             sorting_fast(list, low, middle - 1);
             sorting_fast(list, middle + 1, high);
+
         }
     }
 
